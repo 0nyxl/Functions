@@ -1,0 +1,23 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+double CircleArea(double A , double B)
+{
+
+    const float PI = 3.14;
+    return (PI*B*B/4)*((2*A-B)/(2*A+B));
+}
+
+int main()
+{
+    double A , B;
+    cout << "Please Enter Area 1: ";
+    cin >> A;
+    cout << "Please Enter Area 2: ";
+    cin >> B;
+    cout << endl << "Your Circle Area Is: " << CircleArea(A,B) << endl << endl;
+
+
+    return 0;
+}
