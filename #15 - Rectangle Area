@@ -1,0 +1,23 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+double RectangleArea(double A , double B)
+{
+    
+    double Area = A * B;
+    return Area;
+   }
+
+int main()
+{
+    double A, B;
+    cout << "Please Enter Area 1: ";
+    cin >> A;
+    cout <<endl<< "Please Enter Area 2: ";
+    cin >> B;
+    cout<<endl<<"Your Rectangele Area Is: " << RectangleArea(A, B) <<endl<<endl;
+    
+    
+    return 0;
+}
